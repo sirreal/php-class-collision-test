@@ -1,10 +1,12 @@
 <?php
 
-return;
+if (class_exists('A')) {
+    return;
+}
 
 class A
 {
-    public function a()
+    public function log()
     {
         echo "Called " . __FILE__ . PHP_EOL;
     }
