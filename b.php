@@ -1,5 +1,7 @@
 <?php
 
+echo "Hello from b!" . PHP_EOL;
+
 if (class_exists('A')) {
     return;
 }
