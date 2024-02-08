@@ -3,7 +3,7 @@
 
 echo "Running test from: " . PHP_VERSION . PHP_EOL;
 
-class A
+class _A
 {
     public function log()
     {
