@@ -1,11 +1,11 @@
 <?php
 
-if (class_exists('Already_Defined') ) {
-    return;
-}
+return;
 
-class Already_Defined {
-    public function __construct() {
-        echo 'Initialized from ' . __FILE__ . PHP_EOL;
+class A
+{
+    public function a()
+    {
+        echo "Called " . __FILE__ . PHP_EOL;
     }
 }
